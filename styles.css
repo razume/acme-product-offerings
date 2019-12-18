@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin: 8px;
+  font-family: verdana;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#title {
+  margin-left: 1rem;
+}
+#products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  color: white;
+  width: calc(50% - 2rem);
+  margin: 1rem;
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
